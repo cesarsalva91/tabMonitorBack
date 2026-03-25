@@ -1,0 +1,17 @@
+services:
+  backend:
+    build: .
+    container_name: mqtt-app
+    ports:
+      - "8000:8000"
+    environment:
+      BROKER_HOST: mosquitto
+      BROKER_PORT: 1883
+      MQTT_TOPIC: dispositivos/estado
+    networks:
+      - mqtt_red
+
+networks:
+  mqtt_red:
+    external: true
+    name: mqtt-app_default

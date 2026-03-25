@@ -1,0 +1,15 @@
+{
+  "dev-001": {
+    "id_dispositivo": "dev-001",
+    "coordenadas": {
+      "lat": -24.762502,
+      "lng": -65.39778
+    },
+    "fase1": 220.3,
+    "fase2": 223.05,
+    "fase3": 213.1,
+    "fase1_activa": true,
+    "fase2_activa": true,
+    "fase3_activa": true
+  }
+}
