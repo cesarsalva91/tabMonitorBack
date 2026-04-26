@@ -1,0 +1,22 @@
+{
+    "dev-001": {
+        "id_dispositivo": "dev-001",
+        "nombre": "Lusal Test",
+        "coordenadas": {
+            "lat": -24.762502,
+            "lng": -65.39778
+        },
+        "ultimo_mensaje": "2026-04-26T13:49:12",
+        "ultimo_topic": "dispositivos/online",
+        "ultimo_online": "2026-04-26T13:49:12",
+        "hora_dispositivo": "26/04/26,13:48:11-12",
+        "ultimo_estado_fases": {
+            "fase1": 1,
+            "fase2": 1,
+            "fase3": 1
+        },
+        "ultimo_estado_recibido": "2026-04-26T13:13:13",
+        "ultima_hora_reportada": "26/04/26,13:12:16-12",
+        "ultima_hora_recibida": "2026-04-26T13:13:17"
+    }
+}
